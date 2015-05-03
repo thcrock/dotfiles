@@ -6,7 +6,7 @@ set ruler                     " Show the cursor position all the time
 set title                     " Show title in console title bar
 set hid                       " Change buffer without saving
 set showmatch                 " Show matching bracets
- 
+
 set ts=4                      " Numbers of spaces of tab character
 set sw=4                      " Numbers of spaces to (auto)indent
 set et                        " Tabs are converted to spaces, use only when required
@@ -16,10 +16,10 @@ set autoindent
 set nocindent
 set wrap
 set number
- 
+
 set hlsearch                  " Highlight searches
 set incsearch                 " Do incremental searching
- 
+
 if has("autocmd")
 "au FileType cpp,c,java,sh,pl,php,python,ruby set autoindent
 "au FileType cpp,c,java,sh,pl,php,py,rb set smartindent
@@ -32,7 +32,7 @@ au BufRead,BufNewFile *.go set filetype=go
 endif
 set wildmenu
 set wildmode=list:longest,full
- 
+
 syntax on
 set background=dark
 hi Normal ctermfg=grey ctermbg=darkgrey
